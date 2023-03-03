@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @AppStorage("isUserOnboarded") var isUserOnboarded = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if isUserOnboarded {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+            }
+            .padding()
+        } else {
+            OnboardingView(pages: OnboardingPage.fullOnboarding) { isUserOnboarded = true }
         }
-        .padding()
+        
     }
 }
 

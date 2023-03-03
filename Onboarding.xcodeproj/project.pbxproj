@@ -11,6 +11,8 @@
 		809714BA29B2013400C70BC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809714B929B2013400C70BC6 /* ContentView.swift */; };
 		809714BC29B2013500C70BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809714BB29B2013500C70BC6 /* Assets.xcassets */; };
 		809714BF29B2013500C70BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809714BE29B2013500C70BC6 /* Preview Assets.xcassets */; };
+		809714C629B2090C00C70BC6 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809714C529B2090C00C70BC6 /* OnboardingPage.swift */; };
+		809714C829B20D3A00C70BC6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809714C729B20D3A00C70BC6 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		809714B929B2013400C70BC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		809714BB29B2013500C70BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		809714BE29B2013500C70BC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		809714C529B2090C00C70BC6 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		809714C729B20D3A00C70BC6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				809714B729B2013400C70BC6 /* OnboardingApp.swift */,
 				809714B929B2013400C70BC6 /* ContentView.swift */,
+				809714C529B2090C00C70BC6 /* OnboardingPage.swift */,
+				809714C729B20D3A00C70BC6 /* OnboardingView.swift */,
 				809714BB29B2013500C70BC6 /* Assets.xcassets */,
 				809714BD29B2013500C70BC6 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				809714BA29B2013400C70BC6 /* ContentView.swift in Sources */,
+				809714C829B20D3A00C70BC6 /* OnboardingView.swift in Sources */,
 				809714B829B2013400C70BC6 /* OnboardingApp.swift in Sources */,
+				809714C629B2090C00C70BC6 /* OnboardingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
