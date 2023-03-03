@@ -2,7 +2,7 @@
     Generic Onboarding written in SwiftUI
 </h1>
 
-### Enum based onboarding
+### Enum-based onboarding
 
 ```swift
 enum OnboardingPage: CaseIterable {
