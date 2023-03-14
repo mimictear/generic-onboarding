@@ -12,3 +12,7 @@ enum OnboardingPage: CaseIterable {
     // ... and so on
 }
 ```
+
+![](screenshot_1.png)
+
+![](screenshot_2.png)
